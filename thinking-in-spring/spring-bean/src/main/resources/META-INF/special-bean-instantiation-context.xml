@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userFactoryServiceLoader" class="org.springframework.beans.factory.serviceloader.ServiceLoaderFactoryBean">
+        <property name="serviceType" value="thinking.in.spring.bean.factory.UserFactory"/>
+    </bean>
+
+    <bean id="userFactoryServiceList" class="org.springframework.beans.factory.serviceloader.ServiceListFactoryBean">
+        <property name="serviceType" value="thinking.in.spring.bean.factory.UserFactory"/>
+    </bean>
+</beans>

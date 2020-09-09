@@ -6,4 +6,8 @@
 
     <bean id="user-by-static-method" class="thinking.in.spring.ioc.overview.domain.User" factory-method="createUser"/>
 
+    <bean id="user-by-instance-method" factory-bean="userFactory" factory-method="createUser"/>
+    <bean id="userFactory" class="thinking.in.spring.bean.factory.DefaultUserFactory"/>
+
+    <bean id="user-by-factory-bean" class="thinking.in.spring.bean.factory.UserFactoryBean"/>
 </beans>
