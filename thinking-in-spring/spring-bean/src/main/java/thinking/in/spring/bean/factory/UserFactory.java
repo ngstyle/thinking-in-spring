@@ -7,4 +7,8 @@ public interface UserFactory {
     default User createUser() {
         return User.createUser();
     }
+
+    default void initMethod(){}
+
+    default void destroyMethod(){}
 }

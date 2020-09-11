@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-bean</artifactId>
-    <description>Spring Bean 基础</description>
+    <artifactId>dependcy-lookup</artifactId>
 
     <dependencies>
         <dependency>
