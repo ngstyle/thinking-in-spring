@@ -1,4 +1,4 @@
-package thinking.in.spring.dependcy.lookup;
+package thinking.in.spring.dependency.lookup;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.BeanFactoryUtils;

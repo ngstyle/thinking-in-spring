@@ -1,4 +1,4 @@
-package thinking.in.spring.dependcy.lookup;
+package thinking.in.spring.dependency.lookup;
 
 import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

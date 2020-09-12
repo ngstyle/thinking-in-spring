@@ -1,4 +1,4 @@
-package thinking.in.spring.dependcy.lookup;
+package thinking.in.spring.dependency.lookup;
 
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

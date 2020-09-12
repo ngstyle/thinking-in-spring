@@ -1,12 +1,10 @@
-package thinking.in.spring.dependcy.lookup;
+package thinking.in.spring.dependency.lookup;
 
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
 import thinking.in.spring.ioc.overview.domain.User;
-
-import java.util.function.Consumer;
 
 public class ObjectProviderDemo {
 
