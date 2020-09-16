@@ -13,6 +13,8 @@
         <module>spring-bean</module>
         <module>dependcy-lookup</module>
         <module>dependcy-injection</module>
+        <module>dependency-source</module>
+        <module>bean-scope</module>
     </modules>
 
     <properties>

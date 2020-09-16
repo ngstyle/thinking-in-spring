@@ -31,7 +31,7 @@ public class DependencyInjectionDemo {
 
         // 1. 自定义Bean
         UserRepository userRepository = (UserRepository) beanFactory.getBean("userRepository");
-//        System.out.println(userRepository.getUsers());
+        System.out.println(userRepository.getUsers());
 
         // 2. 依赖注入 内建非Bean对象(内建依赖)
         // DefaultListableBeanFactory

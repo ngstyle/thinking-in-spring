@@ -8,6 +8,16 @@
     <bean id="user" class="thinking.in.spring.ioc.overview.domain.User">
         <property name="id" value="1"/>
         <property name="name" value="nohc"/>
+        <property name="city" value="SHENZHEN"/>
+        <property name="configFileLocation" value="classpath:/META-INF/user-config.properties"/>
+        <property name="cities" value="BEIJING,SHENZHEN"/>
+<!--        <property name="workCities" value="BEIJING,SHENZHEN"/>-->
+        <property name="workCities">
+            <list>
+                <value>BEIJING</value>
+                <value>SHANGHAI</value>
+            </list>
+        </property>
     </bean>
 
     <bean id="objectFactory" class="org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean">

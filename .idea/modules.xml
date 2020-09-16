@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/bean-scope/bean-scope.iml" filepath="$PROJECT_DIR$/thinking-in-spring/bean-scope/bean-scope.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/dependcy-injection/dependcy-injection.iml" filepath="$PROJECT_DIR$/thinking-in-spring/dependcy-injection/dependcy-injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/dependcy-lookup/dependcy-lookup.iml" filepath="$PROJECT_DIR$/thinking-in-spring/dependcy-lookup/dependcy-lookup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/dependency-source/dependency-source.iml" filepath="$PROJECT_DIR$/thinking-in-spring/dependency-source/dependency-source.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-beans-demo/java-beans-demo.iml" filepath="$PROJECT_DIR$/java-beans-demo/java-beans-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/spring-bean/spring-bean.iml" filepath="$PROJECT_DIR$/thinking-in-spring/spring-bean/spring-bean.iml" />

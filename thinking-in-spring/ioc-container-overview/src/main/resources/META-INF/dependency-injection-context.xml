@@ -16,6 +16,13 @@
 <!--                <ref bean="user"/>-->
 <!--            </util:list>-->
 <!--        </property>-->
+
+<!--        <property name="users">-->
+<!--            <list>-->
+<!--                <ref bean="superUser"/>-->
+<!--                <ref bean="user"/>-->
+<!--            </list>-->
+<!--        </property>-->
     </bean>
 
 </beans>
